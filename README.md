@@ -25,7 +25,7 @@ This project simulates a real-time IoT environment for Metro train compressors. 
 ## 🛠 How to Run
 1. **Clone the repo:**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/iot-predictive-maintenance.git](https://github.com/YOUR_USERNAME/iot-predictive-maintenance.git)
+   git clone [https://github.com/Younesghz1993/iot-predictive-maintenance.git](https://github.com/Younesghz1993/iot-predictive-maintenance.git)
 2.**Start Services:**
 ```bash
   docker-compose up -d
@@ -65,12 +65,12 @@ Now, open your command prompt (CMD) or Git Bash in your project folder:
 
 4.  **Link to GitHub (Copy the URL from the page you opened in Step 3):**
     ```bash
-    git remote add origin https://github.com/YOUR_USERNAME/iot-predictive-maintenance.git
+    git remote add origin https://github.com/Younesghz1993/iot-predictive-maintenance.git
     ```
-    *(Replace `YOUR_USERNAME` with your actual GitHub username)*
+   
 
 5.  **Push the code:**
     ```bash
     git push -u origin master
     ```
-    *(Note: If your default branch is `main`, use `git push -u origin main`)*
+    
