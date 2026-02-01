@@ -1,0 +1,14 @@
+# Ignore Data Files
+data/*.csv
+lakehouse/bronze/*
+lakehouse/silver/*
+lakehouse/gold/*
+lakehouse/checkpoints/*
+lakehouse/models/*
+
+# Ignore Jupyter Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Ignore Docker temporary files
+.docker/
