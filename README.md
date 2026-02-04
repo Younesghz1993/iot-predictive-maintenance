@@ -6,7 +6,7 @@ End-to-end Real-time IoT pipeline with Kafka, Spark Streaming, and ML.
 This project simulates a real-time IoT environment for Metro train compressors. It ingests high-frequency sensor data, processes it through a Medallion Architecture (Bronze/Silver/Gold) using **Spark Structured Streaming**, and applies a **Machine Learning** model to predict component failures.
 
 ## 🏗 Architecture
-![Architecture Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Apache_Spark_logo.svg/1200px-Apache_Spark_logo.svg.png)
+![Architecture Diagram](architecture_diagram.png)
 *(Note: You can replace this with a diagram of your Kafka -> Spark -> ML flow later)*
 
 ### Tech Stack
