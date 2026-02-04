@@ -44,33 +44,4 @@ Latency: Near real-time (<10 seconds)
 
 ---
 
-### **Step 5: Push Code to GitHub**
 
-Now, open your command prompt (CMD) or Git Bash in your project folder:
-
-1.  **Initialize Git:**
-    ```bash
-    git init
-    ```
-
-2.  **Add your files:**
-    ```bash
-    git add .
-    ```
-
-3.  **Commit your changes:**
-    ```bash
-    git commit -m "Initial commit - Complete IoT Pipeline"
-    ```
-
-4.  **Link to GitHub (Copy the URL from the page you opened in Step 3):**
-    ```bash
-    git remote add origin https://github.com/Younesghz1993/iot-predictive-maintenance.git
-    ```
-   
-
-5.  **Push the code:**
-    ```bash
-    git push -u origin main
-    ```
-    
