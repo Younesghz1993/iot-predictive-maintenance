@@ -6,7 +6,7 @@ End-to-end Real-time IoT pipeline with Kafka, Spark Streaming, and ML.
 This project simulates a real-time IoT environment for Metro train compressors. It ingests high-frequency sensor data, processes it through a Medallion Architecture (Bronze/Silver/Gold) using **Spark Structured Streaming**, and applies a **Machine Learning** model to predict component failures.
 
 ## 🏗 Architecture
-![Architecture Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Apache_Spark_logo.svg/1200px-Apache_Spark_logo.svg.png)
+![Architecture Diagram](architecture_diagram.png)
 *(Note: You can replace this with a diagram of your Kafka -> Spark -> ML flow later)*
 
 ### Tech Stack
@@ -25,8 +25,8 @@ This project simulates a real-time IoT environment for Metro train compressors. 
 ## 🛠 How to Run
 1. **Clone the repo:**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/iot-predictive-maintenance.git](https://github.com/YOUR_USERNAME/iot-predictive-maintenance.git)
-2.**Start Services:**
+   git clone [https://github.com/Younesghz1993/iot-predictive-maintenance.git](https://github.com/Younesghz1993/iot-predictive-maintenance.git)
+2. **Start Services:**
 ```bash
   docker-compose up -d
 ```
@@ -65,12 +65,12 @@ Now, open your command prompt (CMD) or Git Bash in your project folder:
 
 4.  **Link to GitHub (Copy the URL from the page you opened in Step 3):**
     ```bash
-    git remote add origin https://github.com/YOUR_USERNAME/iot-predictive-maintenance.git
+    git remote add origin https://github.com/Younesghz1993/iot-predictive-maintenance.git
     ```
-    *(Replace `YOUR_USERNAME` with your actual GitHub username)*
+   
 
 5.  **Push the code:**
     ```bash
-    git push -u origin master
+    git push -u origin main
     ```
-    *(Note: If your default branch is `main`, use `git push -u origin main`)*
+    
