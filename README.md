@@ -7,7 +7,7 @@ This project simulates a real-time IoT environment for Metro train compressors. 
 
 ## 🏗 Architecture
 ![Architecture Diagram](architecture_diagram.png)
-*(Note: You can replace this with a diagram of your Kafka -> Spark -> ML flow later)*
+
 
 ### Tech Stack
 * **Ingestion:** Apache Kafka (Producer/Consumer)
